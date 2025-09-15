@@ -1,0 +1,75 @@
+body {
+    background-color:skyblue;
+    text-align: center;
+}
+
+.title {
+    color: yellowgreen;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.desctitle {
+    color: grey;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    ;
+}
+
+.profil {
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+.data {
+    text-align: center;
+    background-color: white;
+    margin:10px auto;
+    width: 500px;
+    border-radius: 25%;
+    padding: 10px;
+}
+
+.home {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 20%;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    color: white;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    margin: 30px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+.list li:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
+}
